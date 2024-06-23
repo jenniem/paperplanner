@@ -39,9 +39,9 @@ TASKS_BY_WDAY = [
   { 0 => 'Plan meals for the week' },
   { 0 => 'Meeting notes' },
   { 0 => 'Meeting notes' },
-  { 0 => 'Meeting notes },
   { 0 => 'Meeting notes' },
-  { 0 => 'Meeting notes },
+  { 0 => 'Meeting notes' },
+  { 0 => 'Meeting notes' },
   { 0 => 'Write Weeknotes' },
 ]
 
