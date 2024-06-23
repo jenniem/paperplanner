@@ -16,8 +16,8 @@ FONTS = {
 }
 PAGE_SIZE = 'A4' # Could also do 'another size' 
 # Order is top, right, bottom, left
-LEFT_PAGE_MARGINS = [38, 70, 38, 35]
-RIGHT_PAGE_MARGINS = [38, 35, 38, 70]
+LEFT_PAGE_MARGINS = [38, 50, 38, 50]
+RIGHT_PAGE_MARGINS = [38, 50, 38, 50]
 
 # Adjust the quarters to a fiscal year, 1 for Jan, 2 for Feb, etc.
 Q1_START_MONTH = 7
@@ -28,7 +28,7 @@ SUMMER_SEMESTER_START = 4 # April
 WINTER_SEMESTER_START = 10 # October
 
 # Use these if you have sprints of a weekly interval
-SPRINT_EPOCH = Date.parse('2023-01-04')
+SPRINT_EPOCH = Date.parse('2024-05-25')
 SPRINT_LENGTH = 42
 
 # Names by day of week, 0 is Sunday.
