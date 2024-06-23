@@ -55,23 +55,7 @@ end
 def begin_new_page pdf, side
   margin = side == :left ? LEFT_PAGE_MARGINS : RIGHT_PAGE_MARGINS
   pdf.start_new_page size: PAGE_SIZE, layout: :portrait, margin: margin
-  if side == :right
-    hole_punches pdf
-  end
-end
 
-def hole_punches pdf
-  pdf.canvas do
-    x = 25
-    # Measuring it on the page it should be `[(1.25).in, (5.5).in, (9.75).in]`,
-    # but depending on the printer driver it might do some scaling. With one
-    # driver I printed a bunch of test pages and found that `[72, 392, 710]`
-    # put it in the right place so your milage may vary.
-    [(1.25).in, (5.5).in, (9.75).in].each do |y|
-      pdf.horizontal_line x - 5, x + 5, at: y
-      pdf.vertical_line y - 5, y + 5, at: x
-    end
-  end
 end
 
 def heading_format(overrides = {})
