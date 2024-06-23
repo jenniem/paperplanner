@@ -20,23 +20,23 @@ en:
       ]
     abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
     formats:
-      default: "%m/%d/%Y"
+      default: "%Y-%d-%m"
       short: "%b %d"
-      medium: "%B %-d, %Y"
-      long: "%A, %B %-d, %Y"
+      medium: "%-d %B %Y"
+      long: "%A, %-d %B %Y"
       weekday: "%A"
       year: "%Y"
-      range_diff_long: "%A, %B %-d, %Y – "
-      range_same_year_long: "%A, %B %-d – "
+      range_diff_long: "%A,%-d %B %Y – "
+      range_same_year_long: "%A, %-d %B – "
       range_same_month_long: "%A, %B – "
   business_days_in_year:
-    zero: "last business day of the year"
-    one: "one more business day in the year"
+    zero: "last work day of the year"
+    one: "one more work day in the year"
     other: "%{count} business days in the year"
   days_left_in_sprint:
-    zero: "last day in the sprint"
-    one: "one more day in the sprint"
-    other: "%{count} more days in the sprint"
+    zero: "last day in the cycle"
+    one: "one more day in the cycle"
+    other: "%{count} more days in the cycle"
   notes: "Notes:"
   tasks: "Tasks:"
   daily_metrics: "Daily Metrics"
