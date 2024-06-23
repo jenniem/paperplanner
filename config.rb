@@ -36,13 +36,13 @@ OOOS_BY_WDAY = [nil, nil, ['Juan'], ['Kelly'], nil, ['Alex', 'Edna'], nil]
 
 # Repeating tasks by day of week, 0 is Sunday. Nested index is the row.
 TASKS_BY_WDAY = [
-  { 0 => 'Plan meals for the week' },
+  { 0 => 'Plan week' },
   { 0 => 'Meeting notes' },
   { 0 => 'Meeting notes' },
   { 0 => 'Meeting notes' },
   { 0 => 'Meeting notes' },
   { 0 => 'Meeting notes' },
-  { 0 => 'Write Weeknotes' },
+  { 0 => 'Write Weeknotes' },    
 ]
 
 # Repeating Appointments by day of week, 0 is Sunday. Nested index is a value in HOUR_LABELS.
